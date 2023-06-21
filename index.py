@@ -3,7 +3,7 @@ import requests
 import os
 
 #set the api url
-api_url = os.environ['API_URL']
+api_url = os.getenv('API_URL')
 
 def main():
     st.title('Candidate Form')
