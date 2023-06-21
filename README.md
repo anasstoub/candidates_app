@@ -11,9 +11,11 @@ To run the app locally, follow the steps below:
 1. Clone the repository:  
     ```bash
     git clone git clone https://github.com/your-username/candidates_App.git
+    
 2. Navigate to the repository directory:  
     ```bash
     cd candidates_App
+
 3. Install the required packages:  
     ```bash
     pip install -r requirements.txt
@@ -21,7 +23,12 @@ To run the app locally, follow the steps below:
 4. Set the `API_URL` environment variable. The value of this variable should be the URL of the backend API where the candidate data will be stored. For example:
     ```bash
     export API_URL=http://localhost:8000/candidates
-5. Run the app:  
+
+5. Navigate to the `src` folder:
+    ```bash
+    cd src
+
+6. Run the app:
     ```bash
     streamlit run index.py
 
