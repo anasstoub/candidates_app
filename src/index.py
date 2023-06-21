@@ -1,8 +1,11 @@
 import streamlit as st
 import requests
 import os
+from dotenv import load_dotenv
 
-#set the api url
+# Load environment variables from .env file
+load_dotenv()
+# Set the API URL from the environment variable
 api_url = os.getenv('API_URL')
 
 def main():
